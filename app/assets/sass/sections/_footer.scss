@@ -1,0 +1,16 @@
+footer {
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    font-size: 1em;
+    color: #999999;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(3, 3, 3, 0.8);
+    z-index: 5;
+    padding: 15px;
+
+
+    @include breakpoint('tablet') {}
+    @include breakpoint('phone') {}
+}

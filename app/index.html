@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="PersonalPortfolio" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="PersonalPortfolio" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="PersonalPortfolio" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="personalPortfolio">
+<!--<![endif]
+
+            <section class="global-container" ></section>
+-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Porfolio Francisco Murillo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Roboto:300,400,700'>
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vendor/font-awesome.min.css">
+    <link rel="stylesheet" href="css/vendor/flexslider.css">
+    <link rel="stylesheet" href="css/vendor/animate.css">
+    <link rel="stylesheet" href="css/application.css" />
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div class="nav-wrapper has-dropdown">
+            <div class="nav-content">
+                <top-nav></top-nav>
+            </div>
+        </div>
+        <section class="global-container" ui-view></section>
+    </div>
+    <ng-include src="'views/footer.html'"></ng-include>
+    <!-- Load Js libs Vendors -->
+    <script src="js/vendor/jquery-2.1.4.js"></script>
+    <script src="js/vendor/jquery.flexslider.js"></script>
+    <script src="js/vendor/bootstrap.js"></script>
+    <script src="js/vendor/wow.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-flexslider/angular-flexslider.js"></script>
+    <!-- INIT -->
+    <script src="js/app.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Directives -->
+    <script src="js/directives/slider-main.js"></script>
+    <script src="js/directives/nav.js"></script>
+    <!-- Services -->
+    <script src="js/services/projectsListService.js"></script>
+    <script src="js/services/contactFactory.js"></script>
+    <!-- Resources -->
+    <!-- Controllers -->
+    <script src="js/controllers/basicSliderController.js"></script>
+    <script src="js/controllers/contactController.js"></script>
+    <script src="js/controllers/categoryController.js"></script>
+    <script src="js/controllers/detailController.js"></script>
+    <!-- Filters -->
+</body>
+
+</html>

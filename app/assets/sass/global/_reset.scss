@@ -1,0 +1,15 @@
+@import "compass/reset";
+
+div, p, span, article, a {
+  box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}

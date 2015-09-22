@@ -1,0 +1,41 @@
+.contact {
+    position: relative;
+    background: url(../images/blurred-background-8.jpg) no-repeat fixed center center / cover;
+    padding-top: 90px;
+    padding-bottom: 350px;
+    color: #333;
+    
+    font-size: 1.5em;
+    h1, h2, h3, p{
+        color: #333;
+    }
+    .detail-wrapper {
+        margin-bottom: 36px;
+        //
+        .detailCopy {}
+        .detailActions {}
+        ///
+        .portfolio-item {
+            .item-wrap {
+                border: 5px solid #fff;
+                box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.2);
+                overflow: hidden;
+                position: relative;
+                -webkit-transition: all 0.3s ease-in-out;
+                -moz-transition: all 0.3s ease-in-out;
+                -o-transition: all 0.3s ease-in-out;
+                -ms-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+                height: 300px;
+                width: 100%;
+                margin-bottom: 30px;
+                //
+                background-size: cover;
+            }
+        }
+        .portfolio-item .item-wrap a {
+            display: block;
+            cursor: pointer;
+        }
+    }
+}

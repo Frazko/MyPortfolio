@@ -1,0 +1,42 @@
+<section ui-view class="category_list fadeIn animated">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1 class="section-title wow fadeInDown animated">{{galleryType}}</h1>
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="wow fadeIn animated">
+                <ul>
+                    <li ng-repeat="datos in dataItems">
+                        <div class="col-xs-12 col-sm-6 col-md-4 portfolio-item">
+                            <div class="item-wrap" style="background: url({{datos.images[0].imagePath}}) no-repeat center center / cover;">
+                                <a ng-sref="detail" ng-href="{{datos.images[0].urlLink}}" title="">
+                                    <div class="overlay">
+                                        <div class="portfolio-item-meta">
+                                            <h5>{{datos.ProjectName}}</h5>
+                                            <p>{{datos.Header}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--
+
+            "ProjectName": "Client",
+            "Header": "Project Header",
+            "Description": "OLA HTML5",
+            "images": [{
+                "imagePath": "images/thumb1.jpg",
+                "altText": "DEMO",
+                "urlLink": ""
+            }] 
+
+
+            -->
+        </div>
+        <!-- twelve columns end -->
+    </div>
+    <!-- row End -->
+</section>

@@ -1,0 +1,129 @@
+.navigation {
+    width: 100%;
+    background-color: black;
+    z-index: 1000
+}
+
+body.is-mobile .widget {
+    background-attachment: scroll!important
+}
+
+.widget {
+    display: block
+}
+
+.navigation {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.navigation:before,
+.navigation:after {
+    content: "";
+    display: table;
+    -webkit-flex-basis: 0;
+    flex-basis: 0;
+    -webkit-order: 9999;
+    order: 9999
+}
+
+.navigation:after {
+    clear: both
+}
+
+.link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navigation a {
+    text-decoration: none;
+    //color: inherit;
+}
+
+.navigation a:hover {
+    text-decoration: none;
+    color: #AAA;
+}
+
+.navigation_link {
+    display: inline-block;
+    font-family: europa;
+    font-weight: 300;
+    line-height: 1.35em;
+    text-align: center;
+    letter-spacing: .01em;
+    color: white;
+    font-size: 2em;
+    padding: 0 1.5em;
+}
+
+.mobile_toggle {
+    display: none;
+    width: 22px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    fill: white
+}
+
+.mobile_toggle .svg-inner {
+    padding-bottom: 84.15300546448087%;
+    position: relative
+}
+
+.items {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+@media screen and(max-width: 768px) {
+    .navigation_link {
+        text-align: left;
+    }
+    .navigation {
+        padding-top: 0;
+    }
+    .items {
+        display: block;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+        overflow: hidden;
+        padding-top: 0;
+        height: 0px;
+        padding-bottom: 0px;
+        transition: all 1s;
+    }
+    .mobileMenuHidden {
+        display: block;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+        overflow: hidden;
+        padding-top: 0;
+        height: 200px;
+        padding-bottom: 20px;
+        transition: all 1s;
+    }
+    .link {
+        display: block;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    .mobile_toggle {
+        display: block
+    }
+}

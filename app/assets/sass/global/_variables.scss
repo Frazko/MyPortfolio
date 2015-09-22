@@ -1,0 +1,44 @@
+//global variables ------------------------------------------------
+$base-font-size: 16px;
+$site-max-width: 100%; //1200px;
+
+
+$hero-background: #000000;
+$hero-minHeight: 320px;
+
+
+$footerHeight: 142px;
+
+
+
+//color variables should have the word 'color' as prefix /////////////////
+
+
+//global colors
+
+$white: #FFFFFF;
+$black: #000000;
+$gray: #cccccc;
+//$dark-blue: #004785;
+
+//by color
+
+//$color-btn-border: #464646;
+//$color-text-blue: #00bdf2;
+
+
+//by element
+
+//$color-primary-header: #000000;
+//$color-cart-title: #555555;
+//
+//
+//
+//
+//
+// ----- Sizing ----- //
+$b-maxWidth: em(1024px);
+$b-maxWidth-m: em(900px);
+$b-maxWidth-s: em(700px);
+$b-space: em(20px);
+
