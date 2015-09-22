@@ -9,13 +9,21 @@
  * Router module of the application.
  */
 angular.module('personalPortfolio')
-    .config(["$stateProvider", "$urlRouterProvider", function($stateProvider, $urlRouterProvider, $stateParams) {
+    .config(["$stateProvider", "$urlRouterProvider",  function($stateProvider, $urlRouterProvider) {
         $urlRouterProvider.otherwise('/');
         $stateProvider
 
             .state('home', {
             url: '/',
             templateUrl: 'views/home.html',
+            controller: function($analytics) {
+                //$analytics.pageTrack('/');
+                //$analytics.eventTrack('InicioEvent');
+                //$analytics.eventTrack('eventName', {
+                //    category: 'category',
+                //    label: 'label'
+                //});
+            }
         })
 
         .state('resume', {
