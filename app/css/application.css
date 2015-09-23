@@ -497,7 +497,7 @@ body.is-mobile .widget {
 }
 
 .flex-control-nav {
-  width: 100px;
+  width: 160px;
   right: 10px;
   position: relative;
   bottom: 36px;
@@ -1198,16 +1198,39 @@ footer {
 /* ------------------------------------------------------------------ */
 .detail {
   position: relative;
-  background: url(../images/iStock_000028725822_Medium-1260x840.jpg) no-repeat fixed center center/cover;
+  background: url(../images/blurred-background-8.jpg) no-repeat fixed center center/cover;
   padding-top: 90px;
   padding-bottom: 350px;
+  height: 1080px;
   color: #FFF;
 }
-.detail h1, .detail h2, .detail h3, .detail p {
+.detail h1,
+.detail h2,
+.detail h3,
+.detail p {
   color: #333;
 }
 .detail .detail-wrapper {
   margin-bottom: 36px;
+  font-size: 1em;
+}
+.detail .detail-wrapper .detailHeader {
+  padding-bottom: 10px;
+}
+.detail .detail-wrapper .detailCopy {
+  padding-bottom: 50px;
+}
+.detail .detail-wrapper .detailActions {
+  display: block;
+}
+.detail .detail-wrapper .detailActions a:link,
+.detail .detail-wrapper .detailActions a:visited,
+.detail .detail-wrapper .detailActions a:active {
+  color: #000;
+  text-decoration: none;
+}
+.detail .detail-wrapper .detailActions a:hover {
+  color: #FFA;
 }
 .detail .detail-wrapper .portfolio-item .item-wrap {
   border: 5px solid #fff;
@@ -1238,6 +1261,9 @@ footer {
 }
 .contact .detail-wrapper {
   margin-bottom: 36px;
+}
+.contact .detail-wrapper #detailImage {
+  background: url("../images/hi-tech-business-communication-man-tablet-office.jpg") no-repeat center center/cover;
 }
 .contact .detail-wrapper .portfolio-item .item-wrap {
   border: 5px solid #fff;

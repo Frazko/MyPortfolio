@@ -1,0 +1,314 @@
+@import url(http://fonts.googleapis.com/css?family=Corben:400,700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300);
+
+body {
+  color: #555555;
+  background:url("../img/bg-gradient.png"); background-repeat: repeat-x;
+
+}
+
+.container {
+  max-width: 960px !important;
+  background-color: #ffffff;
+  padding: 0;
+}
+
+.main h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header {
+  background-image: url("../img/header.png");
+  background-position: right top;
+  padding: 46px;
+  margin-bottom: 0;
+  background-repeat: no-repeat;
+}
+
+.images {
+  margin-bottom: 50px;
+}
+
+.images img{
+  width: 84%;
+  max-height: 208px;
+}
+
+.images .col-xs-6{
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.recipes-by-email {
+  background-color: #ffffff;
+  margin: 0 0 15px;
+  padding: 0;
+  box-shadow: none;
+  background: none;
+}
+
+.recipes-by-email .title {
+    max-width: 280px;
+  margin: 14px auto;
+}
+
+.recipes-by-email .title .icon {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 15px;
+}
+
+.recipes-by-email .divider.dotted.vertical{
+  position: relative;
+  width: 2px;
+  display: table-cell;
+  float: none;
+  background-image: linear-gradient(to bottom, rgba(169, 169, 169, 0.2) 0%, #a9a9a9 25%, rgba(169, 169, 169, 0.2) 50%, rgba(0, 0, 0, 0) 50%);
+  background-position: 0 top;
+  background-size: 12px 6px;
+  background-repeat: repeat-y;
+}
+
+.recipes-by-email .title .content {
+  
+}
+
+.recipes-by-email .title .content a {
+  background: #ffe26e;
+  background-image: -webkit-linear-gradient(top, #ffe26e, #ffe26e);
+  background-image: -moz-linear-gradient(top, #ffe26e, #ffe26e);
+  background-image: -ms-linear-gradient(top, #ffe26e, #ffe26e);
+  background-image: -o-linear-gradient(top, #ffe26e, #ffe26e);
+  background-image: linear-gradient(to bottom, #ffe26e, #ffe26e);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 2% 13% 2% 8%;
+  border: solid #f4dd82 2px;
+
+  text-decoration: none;
+  color: #554b25;
+  font-family: 'Corben';
+  font-size: 15px;
+
+  font-weight:bold;
+} 
+
+.recipes-by-email .title .content a img{
+  position: relative;
+  left: 12%;
+  width: 10%;
+}
+
+.recipes-by-email .form {
+  position: relative;
+  max-width: 315px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recipes-by-email .recipe-email {
+  border: 1px solid #cccccc;
+  color: #555555;
+  padding: 0px 45px 0px 16px;
+  outline: none;
+  width: 100%;
+  font-size: 15px;
+  height: 38px;
+  border-radius: 15px;
+}
+
+.recipes-by-email .email-submit {
+  padding: 0;
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  z-index: 1;
+  float: right;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
+
+.content {
+  position: relative;
+  width: 320px;
+  margin: 0 8%;
+  padding-bottom: 13px;
+}
+
+.content h3 {
+  margin-top: 0;
+  font-size: 19px !important;
+  font-family: 'Corben' !important;
+  font-weight: 700 !important;
+}
+
+.content p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-top: 8px;
+  padding: 0;
+}
+
+.divider {
+  position: relative;
+  width: 2px;
+  display: table-cell;
+  float: none;
+  background-image: linear-gradient(to bottom, rgba(169, 169, 169, 0.2) 0%, #a9a9a9 25%, rgba(169, 169, 169, 0.2) 50%, rgba(0, 0, 0, 0) 50%);
+  background-position: 0 top;
+  background-size: 12px 6px;
+  background-repeat: repeat-y;
+}
+
+.videos {
+  margin: 22px auto 17px auto;
+}
+
+.velveeta-logo{
+  margin-bottom: 22px;
+}
+
+.main {
+  margin: 0 auto;
+  width: auto;
+}
+
+.main h1 {
+  text-align: center;
+  color: #000;
+}
+.main h3{
+  font-weight: 400;
+  font-family: 'Corben';
+}
+
+.main .youtubers-title {
+  font-family: 'Corben';
+  font-size: 20px;
+  font-weight: bold;
+  width: 99%;
+}
+
+.main .sign-title {
+  font-family: 'Corben';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 37px;
+  color:#ff992b;
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.main .challenge-title{
+  font-family: 'Corben';
+  font-size: 37px;
+  font-weight: bold;
+  line-height: 2.5;
+}
+
+.main .valveeta-question-title{
+  /*font-style: italic;*/
+  font-family: 'Corben';
+  font-size: 28px;
+  color: #ff992b;
+  font-weight: 400;
+  margin-top: -13px;
+}
+
+.main .inspire-title{
+  font-family: 'Corben';
+  font-weight: bold;
+  font-size: 30px;
+  font-weight: bold;
+line-height: 40px;
+}
+
+
+.footer {
+  background-image: url("../img/footer.png");
+  height: 81px;
+  width: auto;
+  background-repeat: no-repeat;
+}
+
+.footer-container {
+  margin: 19px 23px;
+  float: right;
+}
+
+.footer ul.social {
+  text-align: left;
+  bottom: -4px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer ul.social li {
+  margin: 0 0 0 10px;
+  width: auto;
+  display: inline-block;
+}
+
+.footer ul.social li a {
+  width: 38px;
+  height: 38px;
+  display: inline-block;
+  position: relative;
+}
+
+.footer ul.social li a svg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.footer ul.social li a svg circle {
+  fill: transparent;
+  stroke: #ffffff;
+  stroke-width: 1px;
+}
+
+.footer ul.social li a svg path {
+  fill: #ffffff;
+}
+
+@media screen and (max-width: 990px) {
+    .main .sign-title {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 740px) {
+    .main .challenge-title{      
+      line-height: initial;
+      margin-bottom: 22px;
+  }
+    
+    
+}
+
+@media screen and (max-width: 400px) {
+  .footer {
+    height: 85px;
+  }
+    
+    
+  .footer-container {
+    /*margin: 2px 23px;*/
+        margin: 2px 6px;
+      
+  }
+
+  .recipes-by-email .title .content a {
+    font-size: 12px;
+  }
+
+}

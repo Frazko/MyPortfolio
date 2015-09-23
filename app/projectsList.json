@@ -1,57 +1,69 @@
 {
     "Projects": [{
         "frontend": [{
-            "ProjectName": "Client 1",
+            "ProjectName": "CHASE Business Banking",
             "Header": "FRONT END",
-            "Description": "Over the course of two astonishing albums, Perfume Genius, aka Seattle native Mike Hadreas, cemented his place as a singer-songwriter of rare frankness, creating songs that, while achingly emotional, offered empathy and hope, rather than judgment or handwringing. Sparse, gorgeous and with Hadreas’ quavering vocals often only accompanied by piano, 2010’s Learning and 2012’s Put Yr Back N 2 It told uncommonly beautiful tales of a life lived on the dark side.",
+            "Description": "Responsive, Tracking, Video player, Sass, Compass, Handlebars, Grunt, Javascript, Jquery, Modernizer.",
+            "parent": "#/category/frontend",
             "images": [{
-                "imagePath": "images/thumb1.jpg",
+                "imagePath": "images/frontend/frontend_0.jpg",
                 "altText": "DEMO",
+                "demoLink": "https://www.chase.com/online/digital/business-banking.html",
                 "urlLink": "#/detail/frontend/0"
             }]
         }, {
-            "ProjectName": "Client 2",
+            "ProjectName": "CHASE Sapphire",
             "Header": "FRONT END",
-            "Description": "Over the course of two astonishing albums, Perfume Genius, aka Seattle native Mike Hadreas, cemented his place as a singer-songwriter of rare frankness, creating songs that, while achingly emotional, offered empathy and hope, rather than judgment or handwringing. Sparse, gorgeous and with Hadreas’ quavering vocals often only accompanied by piano, 2010’s Learning and 2012’s Put Yr Back N 2 It told uncommonly beautiful tales of a life lived on the dark side.",
+            "Description": "HTML, Sass, Tracking",
+            "parent": "#/category/frontend",
             "images": [{
-                "imagePath": "images/thumb2.jpg",
+                "imagePath": "images/frontend/frontend_1.jpg",
                 "altText": "DEMO",
+                "demoLink": "/demoWorks/frontEndDemo/frontEnd_1",
                 "urlLink": "#/detail/frontend/1"
             }]
         }, {
-            "ProjectName": "Client 3",
+            "ProjectName": "CHASE Sapphire",
             "Header": "FRONT END",
-            "Description": "Over the course of two astonishing albums, Perfume Genius, aka Seattle native Mike Hadreas, cemented his place as a singer-songwriter of rare frankness, creating songs that, while achingly emotional, offered empathy and hope, rather than judgment or handwringing. Sparse, gorgeous and with Hadreas’ quavering vocals often only accompanied by piano, 2010’s Learning and 2012’s Put Yr Back N 2 It told uncommonly beautiful tales of a life lived on the dark side.",
+            "Description": "HTML, Sass, Compass, Tracking.",
+            "parent": "#/category/frontend",
             "images": [{
-                "imagePath": "images/thumb3.jpg",
+                "imagePath": "images/frontend/frontend_2.jpg",
                 "altText": "DEMO",
+                "demoLink": "/demoWorks/frontEndDemo/frontEnd_2",
                 "urlLink": "#/detail/frontend/2"
             }]
         }, {
-            "ProjectName": "Client 4",
+            "ProjectName": "CHASE Sapphire",
             "Header": "FRONT END",
-            "Description": "Over the course of two astonishing albums, Perfume Genius, aka Seattle native Mike Hadreas, cemented his place as a singer-songwriter of rare frankness, creating songs that, while achingly emotional, offered empathy and hope, rather than judgment or handwringing. Sparse, gorgeous and with Hadreas’ quavering vocals often only accompanied by piano, 2010’s Learning and 2012’s Put Yr Back N 2 It told uncommonly beautiful tales of a life lived on the dark side.",
+            "Description": "HTML, Sass, Compass,  Tracking.",
+            "parent": "#/category/frontend",
             "images": [{
-                "imagePath": "images/thumb4.jpg",
+                "imagePath": "images/frontend/frontend_3.jpg",
                 "altText": "DEMO",
+                "demoLink": "/demoWorks/frontEndDemo/frontEnd_3",
                 "urlLink": "#/detail/frontend/3"
             }]
         }, {
-            "ProjectName": "Client 5",
+            "ProjectName": "City Bank",
             "Header": "FRONT END",
-            "Description": "Over the course of two astonishing albums, Perfume Genius, aka Seattle native Mike Hadreas, cemented his place as a singer-songwriter of rare frankness, creating songs that, while achingly emotional, offered empathy and hope, rather than judgment or handwringing. Sparse, gorgeous and with Hadreas’ quavering vocals often only accompanied by piano, 2010’s Learning and 2012’s Put Yr Back N 2 It told uncommonly beautiful tales of a life lived on the dark side.",
+            "Description": "HTML, Sass, Compass, JQuery, JavaScript, Tracking",
+            "parent": "#/category/frontend",
             "images": [{
-                "imagePath": "images/thumb1.jpg",
+                "imagePath": "images/frontend/frontend_4.jpg",
                 "altText": "DEMO",
+                "demoLink": "/demoWorks/frontEndDemo/frontEnd_4",
                 "urlLink": "#/detail/frontend/4"
             }]
         }, {
-            "ProjectName": "Client 6",
+            "ProjectName": "Kraft Velveeta",
             "Header": "FRONT END",
-            "Description": "Over the course of two astonishing albums, Perfume Genius, aka Seattle native Mike Hadreas, cemented his place as a singer-songwriter of rare frankness, creating songs that, while achingly emotional, offered empathy and hope, rather than judgment or handwringing. Sparse, gorgeous and with Hadreas’ quavering vocals often only accompanied by piano, 2010’s Learning and 2012’s Put Yr Back N 2 It told uncommonly beautiful tales of a life lived on the dark side.",
+            "Description": "Responsive, Tracking, Sass, Compass, Video player, Javascript, Jquery",
+            "parent": "#/category/frontend",
             "images": [{
-                "imagePath": "images/thumb2.jpg",
+                "imagePath": "images/frontend/frontend_5.jpg",
                 "altText": "DEMO",
+                "demoLink": "/demoWorks/frontEndDemo/frontEnd_5",
                 "urlLink": "#/detail/frontend/5"
             }]
         }],
@@ -64,57 +76,69 @@
 
 
         "olahtml": [{
-            "ProjectName": "Client 1",
+            "ProjectName": "Ritz International",
             "Header": "OLA HTML5",
-            "Description": "OLA HTML5",
+            "Description": "OLA HTML5, javascript, CSS Animation, DoubleClick",
+            "parent": "#/category/olahtml",
             "images": [{
-                "imagePath": "images/thumb3.jpg",
+                "imagePath": "images/olahtml/html1_ritz_international.jpg",
                 "altText": "DEMO",
+                "demoLink": "/demoWorks/frontEndDemo/frontEnd_1",
                 "urlLink": "#/detail/olahtml/0"
             }]
         }, {
-            "ProjectName": "Client 2",
+            "ProjectName": "Comcast Business",
             "Header": "OLA HTML5",
-            "Description": "OLA HTML5",
+            "Description": "OLA HTML5, javascript, CSS Animation, DoubleClick",
+            "parent": "#/category/olahtml",
             "images": [{
-                "imagePath": "images/thumb4.jpg",
+                "imagePath": "images/olahtml/html2_bus_champion.jpg",
                 "altText": "DEMO",
+                "demoLink": "/demoWorks/frontEndDemo/frontEnd_1",
                 "urlLink": "#/detail/olahtml/1"
             }]
         }, {
-            "ProjectName": "Client 3",
+            "ProjectName": "American Express Business",
             "Header": "OLA HTML5",
-            "Description": "OLA HTML5",
+            "Description": "OLA HTML5, javascript, JS and CSS Animation, DoubleClick",
+            "parent": "#/category/olahtml",
             "images": [{
-                "imagePath": "images/thumb1.jpg",
+                "imagePath": "images/olahtml/html3_buyingPower.jpg",
                 "altText": "DEMO",
+                "demoLink": "/demoWorks/frontEndDemo/frontEnd_1",
                 "urlLink": "#/detail/olahtml/2"
             }]
         }, {
-            "ProjectName": "Client 4",
+            "ProjectName": "Xfinity",
             "Header": "OLA HTML5",
-            "Description": "OLA HTML5",
+            "Description": "OLA HTML5, javascript, JS and CSS Animation, DoubleClick",
+            "parent": "#/category/olahtml",
             "images": [{
-                "imagePath": "images/thumb2.jpg",
+                "imagePath": "images/olahtml/html4_gm_dhv.jpg",
                 "altText": "DEMO",
+                "demoLink": "/demoWorks/frontEndDemo/frontEnd_1",
                 "urlLink": "#/detail/olahtml/3"
             }]
         }, {
-            "ProjectName": "Client 5",
+            "ProjectName": "Dollar Cash",
             "Header": "OLA HTML5",
-            "Description": "OLA HTML5",
+            "Description": "OLA HTML5, javascript, CSS Animation, DoubleClick",
+            "parent": "#/category/olahtml",
             "images": [{
-                "imagePath": "images/thumb3.jpg",
+                "imagePath": "images/olahtml/html5_retargeting.jpg",
                 "altText": "DEMO",
+                "demoLink": "/demoWorks/frontEndDemo/frontEnd_1",
                 "urlLink": "#/detail/olahtml/4"
             }]
         }, {
-            "ProjectName": "Client 6",
+            "ProjectName": "Dollar Cash",
             "Header": "OLA HTML5",
-            "Description": "OLA HTML5",
+            "Description": "OLA HTML5, Javascript, Jquery, Box Slider, JS and CSS Animation",
+            "parent": "#/category/olahtml",
             "images": [{
-                "imagePath": "images/thumb4.jpg",
+                "imagePath": "images/olahtml/html6_dollargeneral.jpg",
                 "altText": "DEMO",
+                "demoLink": "/demoWorks/frontEndDemo/frontEnd_1",
                 "urlLink": "#/detail/olahtml/5"
             }]
         }],
@@ -130,58 +154,81 @@
 
 
         "olaflash": [{
-            "ProjectName": "Client 1",
+            "ProjectName": "Nissan Leaf Move On",
             "Header": "OLA FLASH",
-            "Description": "OLA Flash",
+            "Description": "Flash AS3, Away3D for the pages, Greensock, Mediamind.",
+            "parent": "#/category/olaflash",
             "images": [{
-                "imagePath": "images/thumb3.jpg",
+                "imagePath": "images/olaflash/flash_1.jpg",
                 "altText": "DEMO",
+                "demoLink": "/demoWorks/bannersFlashDemo/portfolio_Nissan_Leaf_MoveOn_02.html",
                 "urlLink": "#/detail/olaflash/0"
             }]
         }, {
-            "ProjectName": "Client 2",
+            "ProjectName": "Nissan Leaf Economics",
             "Header": "OLA FLASH",
-            "Description": "OLA Flash",
+            "Description": "Flash AS3, Particles, Greensock, Mediamind.",
+            "parent": "#/category/olaflash",
             "images": [{
-                "imagePath": "images/thumb3.jpg",
+                "imagePath": "images/olaflash/flash_2.jpg",
                 "altText": "DEMO",
+                "demoLink": "/demoWorks/bannersFlashDemo/portfolio_leaf_particles_3.html",
                 "urlLink": "#/detail/olaflash/1"
             }]
         }, {
-            "ProjectName": "Client 3",
+            "ProjectName": "Nissan France",
             "Header": "OLA FLASH",
-            "Description": "OLA Flash",
+            "Description": "AS3, Nissan Framework, Greensock, Flash Builder, Flex SDK.",
+            "parent": "#/category/olaflash",
             "images": [{
-                "imagePath": "images/thumb3.jpg",
+                "imagePath": "images/olaflash/flash_3.jpg",
                 "altText": "DEMO",
+                "demoLink": "/demoWorks/bannersFlashDemo/portfolio_nissan_France_1.html",
                 "urlLink": "#/detail/olaflash/2"
             }]
         }, {
-            "ProjectName": "Client 4",
+            "ProjectName": "Marlboro USA",
             "Header": "OLA FLASH",
-            "Description": "OLA Flash",
+            "Description": "AS3, Marlboro Framework, Greensock, Flash Builder, Flex SDK.",
+            "parent": "#/category/olaflash",
             "images": [{
-                "imagePath": "images/thumb3.jpg",
+                "imagePath": "images/olaflash/flash_4.jpg",
                 "altText": "DEMO",
+                "demoLink": "/demoWorks/bannersFlashDemo/portfolio_Marlboro_1.html",
                 "urlLink": "#/detail/olaflash/3"
             }]
         }, {
-            "ProjectName": "Client 5",
+            "ProjectName": "Leoburnett",
             "Header": "OLA FLASH",
-            "Description": "OLA Flash",
+            "Description": "AS3, Greensock, Flash Builder, Flex SDK, Web Services.",
+            "parent": "#/category/olaflash",
             "images": [{
-                "imagePath": "images/thumb3.jpg",
+                "imagePath": "images/olaflash/flash_5.jpg",
                 "altText": "DEMO",
+                "demoLink": "/demoWorks/bannersFlashDemo/portfolio_leoburnett_2.html",
                 "urlLink": "#/detail/olaflash/4"
             }]
         }, {
-            "ProjectName": "Client 6",
+            "ProjectName": "Nissan Juke Nismo",
             "Header": "OLA FLASH",
-            "Description": "OLA Flash",
+            "Description": "AS3, Video, Greensock, Mediamind.",
+            "parent": "#/category/olaflash",
             "images": [{
-                "imagePath": "images/thumb3.jpg",
+                "imagePath": "images/olaflash/flash_6.jpg",
                 "altText": "DEMO",
+                "demoLink": "/demoWorks/bannersFlashDemo/portfolio_juke_nismo_2.html",
                 "urlLink": "#/detail/olaflash/5"
+            }]
+        }, {
+            "ProjectName": "Gillette",
+            "Header": "OLA FLASH",
+            "Description": "AS3, Video, Greensock, Flash Builder, Flex SDK, Java backend, Web Services.",
+            "parent": "#/category/olaflash",
+            "images": [{
+                "imagePath": "images/olaflash/flash_7.jpg",
+                "altText": "DEMO",
+                "demoLink": "/demoWorks/bannersFlashDemo/portfolio_gillette.html",
+                "urlLink": "#/detail/olaflash/6"
             }]
         }]
     }]

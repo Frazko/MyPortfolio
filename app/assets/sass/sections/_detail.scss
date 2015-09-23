@@ -1,21 +1,45 @@
 /* ------------------------------------------------------------------ */
+
+
 /*  Detail Section
 /* ------------------------------------------------------------------ */
 
 .detail {
     position: relative;
-    background: url(../images/iStock_000028725822_Medium-1260x840.jpg) no-repeat fixed center center / cover;
+    background: url(../images/blurred-background-8.jpg) no-repeat fixed center center / cover;
     padding-top: 90px;
     padding-bottom: 350px;
+    height: 1080px;
     color: #FFF;
-    h1, h2, h3, p{
-    	color: #333;
+    h1,
+    h2,
+    h3,
+    p {
+        color: #333;
     }
     .detail-wrapper {
         margin-bottom: 36px;
         //
-        .detailCopy {}
-        .detailActions {}
+        font-size: 1em;
+
+        .detailHeader {
+            padding-bottom: 10px;
+        }
+        .detailCopy {
+            padding-bottom: 50px;
+        }
+        .detailActions {
+            display: block;
+            a:link,
+            a:visited,
+            a:active {
+                color: #000;
+                text-decoration: none;
+            }
+            a:hover {
+                color: #FFA;
+            }
+        }
         ///
         .portfolio-item {
             .item-wrap {

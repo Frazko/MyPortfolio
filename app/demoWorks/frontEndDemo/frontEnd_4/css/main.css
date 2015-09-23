@@ -1,0 +1,397 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	margin : 0;
+	padding : 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+img {
+	display: block;
+	border: none;
+}
+sup{
+    vertical-align: super;
+    position: relative;
+    top: -0.3em;
+    font-size:10px !important;
+}
+a {
+	border: none;
+	text-decoration: none;
+	cursor: pointer !important;
+	outline: none;
+}
+.overflow {
+	overflow: hidden;
+}
+.floatLeft {
+	float: left;
+}
+.floatRight {
+	float: right;
+}
+.bold {
+	font-weight: bold !important;
+}
+.relative {
+	position: relative;
+}
+.absolute {
+	position: absolute;
+}
+.clear {
+	clear: both;
+}
+.underline {
+	text-decoration: underline !important;
+}
+@font-face {
+	font-family: 'interstateregular';
+	src: url('../fonts/interstate-regular-webfont.eot');
+	src: url('../fonts/interstate-regular-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/interstate-regular-webfont.woff') format('woff'),  url('../fonts/interstate-regular-webfont.ttf') format('truetype'),  url('../fonts/interstate-regular-webfont.svg#interstateregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'interstatebold';
+	src: url('../fonts/interstate-bold-webfont.eot');
+	src: url('../fonts/interstate-bold-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/interstate-bold-webfont.woff') format('woff'),  url('../fonts/interstate-bold-webfont.ttf') format('truetype'),  url('../fonts/interstate-bold-webfont.svg#interstateregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'interstatelight';
+	src: url('../fonts/interstate-light-webfont.eot');
+	src: url('../fonts/interstate-light-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/interstate-light-webfont.woff') format('woff'),  url('../fonts/interstate-light-webfont.ttf') format('truetype'),  url('../fonts/interstate-light-webfont.svg#interstateregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'interstateextralight';
+	src: url('../fonts/interstate-extralight-webfont.eot');
+	src: url('../fonts/interstate-extralight-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/interstate-extralight-webfont.woff') format('woff'),  url('../fonts/interstate-extralight-webfont.ttf') format('truetype'),  url('../fonts/interstate-extralight-webfont.svg#interstateextralight') format('svg');
+	font-weight: light;
+	font-style: normal;
+}
+.btn {
+	color: #FFF;
+	background: url('../images/btn-green-gradient.png') repeat-x;
+	font-size: 16px;
+	font-family: Arial;
+	line-height: 14px;
+	text-transform: uppercase;
+	padding-top: 13px;
+	text-align: center;
+}
+.btn i {
+	background: url("../images/arrow.png");
+	margin-left: 5px;
+	width: 7px;
+	display: inline-block;
+	height: 13px;
+}
+.btn-large {
+	display: block;
+	width: 221px;
+	height: 28px;
+	margin-left: 715px;
+}
+/*Specific Styles*/
+#wrapper {
+	width: 986px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#copyrights {
+	width: 995px;
+	margin: -103px auto 20px;
+}
+#header  {
+text-align: right;
+}
+#header a {
+	margin-right: 32px;
+	display: inline-block;
+}
+#header div {
+	background-image: url(../images/hr_bg.jpg);
+	width: 986px;
+	height: 261px;
+	margin-top: 9px;
+	text-align: left;
+}
+#header div img {
+	margin: 53px 0 0 53px;
+}
+#header div p {
+	font: 43px/47px 'interstateextralight', Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	letter-spacing: 0.0em;
+}
+#header div p strong{
+	font: 42px/47px 'interstatebold', Arial, Helvetica, sans-serif;
+
+}
+
+#header div p.first_text {
+	width: 275px;
+	margin: 47px 0 0 47px;
+}
+#header div p.second_text {
+	width: 685px;
+	margin: 44px 0 26px 39px;
+}
+#header div a {
+	width: 166px;
+	height: 27px;
+	display: block;
+	margin: 0px 0 0 44px;
+}
+#contentFirst {
+	background-image: url(../images/cont_first_bg.jpg);
+	background-position: center bottom;
+	background-repeat: repeat-x;
+}
+.appleLinks a {
+	color: #333333 !important;
+	text-decoration: none;
+	pointer-events: none;
+}
+.contentMiddle {
+	clear: both;
+	margin: 22px 0 20px 21px;
+	display: block;
+}
+
+.contentMiddle > ul li {
+	background-image: url(../images/cont_product_rows_bg.gif);
+	width: 232px;
+	height: 423px;
+	text-align: center;
+	margin-right: 5px;
+}
+.contentMiddle > ul li.selectedProductRow {
+	background-image: url(../images/cont_product_rows_bg_selected.gif);
+}
+
+.contentMiddle > ul li h4 {
+	font: bold 21px Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	padding: 6px;
+	width: 196px;
+	margin: 10px auto 9px;
+	background-color: #c2c2c2;
+}
+.contentMiddle > ul li.selectedProductRow h4 {
+	background-color: #00bdf2;
+}
+
+.contentMiddle > ul li p {
+	font: italic 18px Arial, Helvetica, sans-serif;
+	color: #9a9a9a;
+	margin: 3px 0 0 0;
+}
+.contentMiddle > ul li.selectedProductRow p {
+	color: #00bdf2;
+}
+.contentMiddle > ul li span {
+	font: 22px/26px Arial, Helvetica, sans-serif;
+	color: #9a9a9a;
+	margin: 10px 0 25px 0;
+	display: block;
+}
+.contentMiddle > ul li span.descriptions {
+	font: bold 12px/14px Arial, Helvetica, sans-serif;
+	color: #171717;
+	margin: 8px 0 17px 0;
+	display: block;
+}
+.contentMiddle > ul li.selectedProductRow span {
+	color: #004785;
+}
+
+.contentMiddle > ul li.selectedProductRow .black {
+	color: #000;
+}
+
+.contentMiddle > ul li a {
+	background-image: url(../images/img_CTA_singUp.gif);
+	background-size: 207px 56px;
+	background-repeat: no-repeat;
+	width: 207px;
+	height: 56px;
+	display: inline-block;
+}
+.contentMiddle > ul li span.singUp {
+	font: 18px/24px Arial, Helvetica, sans-serif;
+	color: #9a9a9a;
+	display: block;
+}
+.contentMiddle > ul li img {
+	margin: auto;
+}
+.contentMiddle > ul li img.top {
+	margin: auto auto 28px;
+}
+
+.bow{
+	position: relative;
+	top: -76px;
+	float: right;
+}
+
+.contentMiddle > ul li .hiltonpadding {
+	margin-top: 21px;
+	margin-bottom: 16px;
+}
+
+.contentBottom {
+	margin: 15px 0 0 0;
+}
+.firstColumn {
+	margin: 50px 0 0 7px;
+}
+
+.secondColumn {
+	margin: 49px 0 0 19px;
+	font: 19px/26px 'interstateregular', Arial, Helvetica, sans-serif;
+	color: #666666;
+	width: 240px;
+}
+.secondColumn sup {
+	font: 12px/12px 'interstateregular', Arial, Helvetica, sans-serif;
+	vertical-align: text-top;
+}
+.thirdColumn {
+	margin: 0 0 0 72px;
+	overflow: visible;
+}
+.thirdColumn h6 {
+	font: 25px 'interstateregular', Arial, Helvetica, sans-serif;
+	color: #00589f;
+}
+.thirdColumn p {
+	font: 15px/20px 'interstateregular', Arial, Helvetica, sans-serif;
+	color: #666666;
+	letter-spacing: -1px;
+}
+.sign-up {
+	float: left;
+	margin-top: 20px;
+}
+#calendar {
+	width: 215px;
+	height: 290px;
+	padding: 0 0 0 2px;
+	overflow: visible;
+}
+#calendarToggle {
+	background-image: url(../images/cont_cta_select_calendar.jpg);
+	width: 100%;
+	height: 36px;
+	display: block;
+	margin: 16px 0 0 0px;
+}
+#calendar ul {
+	display: none;
+	position: relative;
+	top: -36px;
+}
+#calendar ul li {
+	height: 35px;
+	border-bottom: 1px solid #ffffff;
+	width: 100%;
+	position: relative;
+}
+#calendar ul li a {
+	display: block;
+	font: 16px 'interstateextralight', Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	padding-left: 57px;
+	line-height: 35px;
+	background-color: #c7c7c7;
+	background-repeat: no-repeat;
+}
+#calendar ul li a span {
+	background: url(../images/cont_icn_calendarArrowSmall.png) no-repeat right 13px;
+	display: inline-block;
+	padding-right: 12px;
+}
+#calendar ul li:hover > a {
+	background-color: #00bdf2;
+}
+#calendar ul li.outlook a {
+	background-image: url(../images/cont_icn_outlook.png);
+	background-position: 14px center;
+}
+#calendar ul li.googleCal a {
+	background-image: url(../images/cont_icn_googlecal.png);
+	background-position: 13px center;
+}
+#calendar ul li.iCal a {
+	background-image: url(../images/cont_icn_iCal.png);
+	background-position: 11px center;
+}
+#calendar ul li.yahoo a {
+	background-image: url(../images/cont_icn_yahoo.png);
+	background-position: 9px center;
+}
+#calendar ul li .quarters {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 215px;
+	width: 135px;
+}
+#calendar ul li .quarters li.first a {
+	background-image: url(../images/cont_icn_calendarArrow.png);
+	background-position: left top;
+	border: none;
+}
+#calendar ul li .quarters li a {
+	background-image: none;
+	text-align: center;
+	padding: 0px 10px;
+	border-left: 1px solid #fff;
+}
+#calendar ul li .quarters li a:hover {
+	background-color: #00bdf2;
+}
+#footer {
+	border-top: 1px solid #004685;
+	padding: 22px 0 20px 1px;
+	margin-top: -126px;
+}
+.footerAsterisc {
+	font: 12px/14px Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+.footerCopy {
+	font: 12px/14px Arial, Helvetica, sans-serif;
+	color: #666666;
+	padding: 0 0 20px 5px;
+}
+
+
+.ucarrow {
+	font-family: verdana;
+	font-size: 14px;
+}
+
+/* IE FIXES */
+.ie8 .thirdColumn p {
+	width: 100% !important;
+	padding-right: 25px !important;
+}
+.ie7 #calendar ul li {
+	margin-bottom: -3px !important;
+}
+.ie7 #footer {
+	margin-top: -76px !important;
+}
+#footer {
+	width: 984px;
+	float: left;
+}
+
+

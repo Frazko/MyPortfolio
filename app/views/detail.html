@@ -1,24 +1,32 @@
 <section ui-view class="detail">
     <div class="row">
-        <div class="container">        
+        <div class="container">
             <div class="detail-wrapper" class="fadeIn animated">
                 <div class="portfolio-item col-xs-12 col-sm-6">
-                    <div id="detailImage" class="item-wrap fadeIn animated" style="background:url('{{data.images[0].imagePath}}') no-repeat center center / cover;">
-                    </div>
+                    <a ng-href="{{data.images[0].demoLink}}" target="_blank">
+                        <div id="detailImage" class="item-wrap fadeIn animated" style="background:url('{{data.images[0].imagePath}}') no-repeat center center / cover;">
+                        </div>
+                    </a>
                 </div>
-
                 <div class="col-xs-12 col-sm-6">
-
+                    <div class="detailHeader">
+                        <h1>{{data.ProjectName}}</h1>
+                    </div>
                     <div class="detailCopy">
-                    	<h1>{{data.ProjectName}}</h1>
+                        <h3>Technologies applied:</h3>
                         <p>{{data.Description}}</p>
                     </div>
-
-
                     <div class="detailActions">
-                        <h2>Actions</h2>
+                        <p>
+                            <a class="aNext" ng-href="{{data.images[0].demoLink}}" target="_blank">Check the work here <i class="fa fa-arrow-right"></i></a>
+                        </p>
+                        <p>
+                            <a class="aPrev" ng-sref="{{data.parent}}" ng-href="{{data.parent}}">Back to Category <i class="fa fa-arrow-right fa-flip-horizontal"></i></a>
+                        </p>
+                        <!--<h2>Actions</h2>
                         <a href=""> Action 1</a>
                         <a href=""> Action 2</a>
+                        -->
                     </div>
                 </div>
             </div>

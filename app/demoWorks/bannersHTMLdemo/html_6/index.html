@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title> Dollar General Dynamic Product Banners</title>
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript" src="https://aa.chango.com/static/dynamic/jquery.bxslider.min.js"></script>
+
+		<script type="text/javascript" src="http://aa.chango.com/static/dynamic/test/dynamicAd_omni.js"></script>
+
+
+		
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
+
+
+		 <style type="text/css">
+    /**
+     * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+     * http://cssreset.com
+     */
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+      display: block;
+    }
+    body {
+      line-height: 1;
+    }
+    ol, ul {
+      list-style: none;
+    }
+    blockquote, q {
+      quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: '';
+      content: none;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+  </style>
+
+		<style type="text/css">
+
+			body { background: transparent; height: 100%; }
+
+			#ad-300x250-1 { background: #fff; width: 298px; height: 248px; border: 1px #2f7dc1 solid; cursor: pointer; background-image: url("images/bg.jpg"); top:0; left:0;}
+
+			#ad-300x250-1 .logo-container { background: url('images/logo.png'); background-repeat: no-repeat; float: left; width: 203px; height: 37px; display: block; margin-top: 64px; margin-left: 48px; }
+			#ad-300x250-1 .text { background: url('images/text.png'); background-repeat: no-repeat; float: left; width: 203px; height: 53px; position: absolute; top: 7px; left: 49px; }
+
+			#ad-300x250-1 .prod-wrapper { width: 270px; padding: 0 14px; float: left; }
+			#ad-300x250-1 .image-wrapper { max-height: 112px; text-align: center; /*background: #eee;*/ }
+			#ad-300x250-1 .prod-image { margin-left: -101px; margin-top: 11px; -webkit-box-shadow: -5px 6px 19px 0px rgba(50, 50, 50, 0.64); -moz-box-shadow:    -5px 6px 19px 0px rgba(50, 50, 50, 0.64); box-shadow:         -5px 6px 19px 0px rgba(50, 50, 50, 0.64);}
+			#ad-300x250-1 .prod-desc { padding-top: 7px;  }
+
+			/*STYLE DINAMYC TEXTS Description, Price & Code -------------------------------*/
+
+			#ad-300x250-1 .prod-name {     font-family: 'Arial'; color: #000; font-size: 18px; line-height: 14px; text-align: left; overflow: visible; max-height: 30px; margin-top: -98px; margin-bottom: 8px; width: 142px; margin-left: 165px; font-weight: bold; z-index: 4; position: absolute; text-transform: uppercase;}
+
+
+			#ad-300x250-1 .prod-price {   font-family: 'Arial'; font-weight: bold; color: #2f7dc1; font-size: 30px; position: absolute; top: 77px; left: 179px;}
+
+			.skuCode{font-family: 'Arial'; color: #000; font-size: 12px; position: absolute; text-align: left; float: left; top:39px; left: 180px;}
+
+			/*-----------------------------------------------------------------------------*/
+
+			.prod-nameHotel {color: #000; font-size: 12px;  text-align: center;   margin-top: -3px;}
+
+
+			#ad-300x250-1 .footer-content { width: 283px; height: 30px; bottom: 0; }
+			#ad-300x250-1 .footer-promo-text { float: left; color: #fff; font-size: 14px; line-height: 14px; text-transform: uppercase; padding: 2px 0px 0 0px; position: absolute; font-weight: bold; -webkit-font-smoothing: antialiased;}
+
+			#ad-300x250-1 .btn-container .btn{ width: 97px;height: 23px; top:222px; left:94px; float: left;cursor: pointer;z-index: 2;position: absolute; }
+
+
+			#ad-300x250-1 .arrow-left {background: url('images/arrowRight.png') no-repeat 50%;width: 12px;height: 33px;cursor: pointer;top:48px;left:281px;position: absolute;z-index: 9;float: left;}
+
+			.arrow-right {   background: url('images/arrowLeft.png') no-repeat 50%; width: 12px; height:33px; cursor: pointer; margin-right: 5px; top: 48px; left: 5px; position: absolute; float: left; z-index: 9; }
+
+			#ad-300x250-1 .bx-viewport { height: 172px !important; float:left; margin-top:-6px;}
+
+			
+			.alphaRight{  width: 14px; height: 33px; float: left; position: absolute; top: 144px; left: 4px; z-index: 10;}
+			.alphaLeft{    width: 14px; height: 33px; float: left; position: absolute; top: 144px; left: 280px; z-index: 10;}
+	
+		</style>
+
+	</head>
+	<body>
+		<script>
+			var data = {
+	                "landing_url": "https://www.boxed.com/?utm_source=chango&utm_medium=display",
+	                "current_time": 1234,
+	                "interaction_url": '',
+	                "click_prefix": "{{short_click_url()}}",
+	                "click_suffix": "?utm_source=chango&utm_medium=display",
+					"products": [
+						{
+						      "category": "Resorts",
+						      "sku": "R1",
+						      "group_id": "R1",
+						      "title": "PRODUCT", //Prod Descript
+						      "price": "19.99",
+						      "link": "http://www.omnihotels.com/hotels/asheville-grove-park",
+						      "sale_price": "1",
+			                "interaction_url": decodeURIComponent(""),
+						      "image_url": "images/img/img1.jpg",
+						      "sale_price_end_date": "",
+						      "partner_id": "hotel",
+						      "brand": "Omni Hotels",
+						      "desc": "ITEM 03 W/ <br>ANDROID 4.1" // Shipping CODE
+
+						},{
+						      "category": "Resorts",
+						      "sku": "R1",
+						      "group_id": "R1",
+						      "title": "PRODUCT2", //Prod Descript
+						      "price": "29.99",
+						      "link": "http://www.omnihotels.com/hotels/asheville-grove-park",
+						      "sale_price": "1",
+			                "interaction_url": decodeURIComponent(""),
+						      "image_url": "images/img/img2.jpg",
+						      "sale_price_end_date": "",
+						      "partner_id": "hotel",
+						      "brand": "Omni Hotels",
+						      "desc": "ITEM 03 W/ <br>ANDROID 4.1" // Shipping CODE
+						},{ 
+						      "category": "Resorts",
+						      "sku": "R1",
+						      "group_id": "R1",
+						      "title": "PRODUCT3", //Prod Descript
+						      "price": "39.99",
+						      "link": "http://www.omnihotels.com/hotels/asheville-grove-park",
+						      "sale_price": "1",
+			                "interaction_url": decodeURIComponent(""),
+						      "image_url": "images/img/img3.jpg",
+						      "sale_price_end_date": "",
+						      "partner_id": "hotel",
+						      "brand": "Omni Hotels",
+						      "desc": "ITEM 03 W/ <br>ANDROID 4.1" // Shipping CODE
+						}
+					
+					]
+				};
+
+				//vars for stored tags TITLE and Description Banner
+				codeFreeShipping=data.products[0].desc;
+				//_________________________________________________
+
+
+
+
+
+
+		</script>
+
+		<!-- Banner Ad -->
+
+		<div id="ad-300x250-1">
+			<div class="logo-container"></div>
+			<div class="text"></div>
+			<div class="dynamic-container"></div>
+			
+				<!-- <a class="arrow-right"></a>
+				<a class="arrow-left"></a> -->
+			<div class="footer-content">
+				<!-- <div class="footer-promo-text">SAVE 15%</div> -->
+				<div class="btn-container">
+					<a href="http://www.dollargeneral.com/" target="_blank">
+						<div class="btn">
+							<img src="images/cta.png" alt="">
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="alphaRight"></div>
+		<div class="alphaLeft"></div>
+		<script>
+			var da = DynamicAd;
+			var options = {
+				"160x600": {width: 160, height: 250},
+				"300x600": {width: 300, height: 600},
+				"300x250": {width: 300, height: 208},
+				"728x90": {width: 728, height: 90}
+			};
+			$(document).ready(function(){
+				da.init(data, options["300x250"], '.dynamic-container', '.prod-wrap', '\
+					<div class="prod-wrap prod-page" id="prod-%%sku%%" data-href="%%link%%" data-interaction-url="%%interaction_url%%">\
+						<div class="prod-wrapper">\
+							<div class="image-wrapper">\
+								<img class="prod-image" src="%%image%%">\
+							</div>\
+							<div class="prod-desc">\
+								<div class="prod-name">\
+									%%title%%\
+								</div>\
+								<div class="skuCode">\
+										%%desc%%\
+									</div>\
+								<div class="prod-price">\
+									$%%price%%\
+								</div>\
+							</div>\
+						</div>\
+						<a class="arrow-right"></a>\
+						<a class="arrow-left"></a>\
+					</div>');
+				da.cycleCarousel(".alphaRight", false);
+				da.cycleCarousel(".alphaLeft", true);
+
+				$(".freeShipCode").text(codeFreeShipping);
+			});
+			$("#ad-300x250-1").click(function () {
+        		window.open($(this).find("a:first").attr("href"));
+        		return false;
+   			 });
+		</script>
+	</body>
+</html>
