@@ -230,8 +230,8 @@ body.is-mobile .widget {
 .navigation:after {
   content: "";
   display: table;
-  -ms-flex-preferred-size: 0;
   -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
   flex-basis: 0;
   -webkit-order: 9999;
   -ms-flex-order: 9999;
@@ -984,7 +984,7 @@ footer {
   position: relative;
   background: url(../images/At-the-Office-Mac-Apple-Wallpapers-Creative-Planning-2982192420.jpeg) no-repeat fixed center center/cover;
   padding-top: 90px;
-  padding-bottom: 350px;
+  min-height: 1080px;
   color: #FFF;
   /* Portfolio Content */
   /* overlay */
@@ -1091,7 +1091,7 @@ footer {
 /* ------------------------------------------------------------------ */
 .category_list {
   position: relative;
-  padding-bottom: 350px;
+  height: 1140px;
   color: #FFF;
   /* Portfolio Content */
   /* overlay */
