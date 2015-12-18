@@ -211,6 +211,18 @@
         -moz-animation: javascript 2s ease;
         -webkit-animation: javascript 2s ease;
     }
+    .mongodb {
+        background: #39a55e;
+        width: 50%;
+        -moz-animation: mongodb 2s ease;
+        -webkit-animation: mongodb 2s ease;
+    }
+    .expressjs {
+        background: #aaaaaa;
+        width: 50%;
+        -moz-animation: expressjs 2s ease;
+        -webkit-animation: expressjs 2s ease;
+    }
     .css {
         background: #3498db;
         width: 90%;
@@ -283,6 +295,22 @@
             width: 90%;
         }
     }
+    @-moz-keyframes mongodb {
+        0% {
+            width: 0px;
+        }
+        100% {
+            width: 50%;
+        }
+    }
+    @-moz-keyframes expressjs {
+        0% {
+            width: 0px;
+        }
+        100% {
+            width: 50%;
+        }
+    }
     @-moz-keyframes css {
         0% {
             width: 0px;
@@ -324,6 +352,22 @@
         }
     }
     @-webkit-keyframes javascript {
+        0% {
+            width: 0px;
+        }
+        100% {
+            width: 90%;
+        }
+    }
+    @-webkit-keyframes mongodb {
+        0% {
+            width: 0px;
+        }
+        100% {
+            width: 50%;
+        }
+    }
+    @-webkit-keyframes expressjs {
         0% {
             width: 0px;
         }
