@@ -45,17 +45,6 @@
                 "urlLink": "#/detail/frontend/3"
             }]
         }, {
-            "ProjectName": "City Bank",
-            "Header": "FRONT END",
-            "Description": "HTML, Sass, Compass, JQuery, JavaScript, Tracking",
-            "parent": "#/category/frontend",
-            "images": [{
-                "imagePath": "images/frontend/frontend_4.jpg",
-                "altText": "DEMO",
-                "demoLink": "/demoWorks/frontEndDemo/frontEnd_4",
-                "urlLink": "#/detail/frontend/4"
-            }]
-        }, {
             "ProjectName": "Kraft Velveeta",
             "Header": "FRONT END",
             "Description": "Responsive, Tracking, Sass, Compass, Video player, Javascript, Jquery",
