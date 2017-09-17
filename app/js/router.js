@@ -15,15 +15,7 @@ angular.module('personalPortfolio')
 
             .state('home', {
             url: '/',
-            templateUrl: 'views/home.html',
-            controller: function($analytics) {
-                //$analytics.pageTrack('/');
-                //$analytics.eventTrack('InicioEvent');
-                //$analytics.eventTrack('eventName', {
-                //    category: 'category',
-                //    label: 'label'
-                //});
-            }
+            templateUrl: 'views/home.html'
         })
 
         .state('resume', {

@@ -252,4 +252,4 @@ gulp.task('watch', function () {
 
 gulp.task('default', ['compass', 'html', 'build']);
 
-gulp.task('start', ['compass', 'scripts', 'html', 'browser-sync', 'build', 'watch']);
+gulp.task('start', ['build:cleanfolder', 'styles', 'scripts', 'html', 'browser-sync', 'build', 'watch']);

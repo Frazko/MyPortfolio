@@ -3,7 +3,7 @@ angular.module('personalPortfolio')
         '$rootScope', '$window', '$location',
         function($rootScope, $window, $location) {
 
-            var myGoogleAnalytics = {};
+            // var myGoogleAnalytics = {};
 
             /**
              * Set the page to the current location path
@@ -11,26 +11,26 @@ angular.module('personalPortfolio')
              */
 
 
-            myGoogleAnalytics.sendPageview = function() {
-                if ($window.ga) {
-                    $window.ga('set', 'page', $location.path());
-                    //$window.ga('send', 'pageview');
-                    ga('send', {
-                        'hitType': 'event',
-                        'eventCategory': 'button',
-                        'eventAction': 'click',
-                        'eventLabel': 'page view',
-                        'hitCallback': function() {
-                            console.warn(">>>>>>>> GA Event received ");
-                        }
-                    });
-                    console.log("myGoogleAnalytics :: sendPageview");
-                }
-            }
+            // myGoogleAnalytics.sendPageview = function() {
+            //     if ($window.ga) {
+            //         $window.ga('set', 'page', $location.path());
+            //         //$window.ga('send', 'pageview');
+            //         ga('send', {
+            //             'hitType': 'event',
+            //             'eventCategory': 'button',
+            //             'eventAction': 'click',
+            //             'eventLabel': 'page view',
+            //             'hitCallback': function() {
+            //                 console.warn(">>>>>>>> GA Event received ");
+            //             }
+            //         });
+            //         console.log("myGoogleAnalytics :: sendPageview");
+            //     }
+            // }
 
             // subscribe to events
-            $rootScope.$on('$viewContentLoaded', myGoogleAnalytics.sendPageview);
+            // $rootScope.$on('$viewContentLoaded', myGoogleAnalytics.sendPageview);
 
-            return myGoogleAnalytics;
+            // return myGoogleAnalytics;
         }
     ]);
