@@ -66,6 +66,7 @@
                         }
                         .timeline-event-copy {
                             left: 50px;
+                            max-width: 570px;
                             padding: 32px 32px 0;
                             position: relative;
                             top: -32px;
@@ -156,7 +157,7 @@
         width: 100%;
         float: left;
         text-align: left;
-        padding: 60px;
+        padding: 10px 60px;
     }
     //
     .bars {
@@ -211,11 +212,35 @@
         -moz-animation: javascript 2s ease;
         -webkit-animation: javascript 2s ease;
     }
+    .react {
+        background: #7486a2;
+        width: 90%;
+        -moz-animation: react 2s ease;
+        -webkit-animation: react 2s ease;
+    }
+    .redux {
+        background: #0484f4; 
+        width: 85%;
+        -moz-animation: redux 2s ease;
+        -webkit-animation: redux 2s ease;
+    }
+    .reactNative {
+        background: #d9495f;
+        width: 85%;
+        -moz-animation: reactNative 2s ease;
+        -webkit-animation: reactNative 2s ease;
+    }
     .mongodb {
-        background: #39a55e;
-        width: 50%;
+        background: #39a55e;  
+        width: 70%; 
         -moz-animation: mongodb 2s ease;
         -webkit-animation: mongodb 2s ease;
+    }
+    .nodejs {
+        background: #faaa6a;
+        width: 60%;
+        -moz-animation: nodejs 2s ease;
+        -webkit-animation: nodejs 2s ease;
     }
     .expressjs {
         background: #aaaaaa;
@@ -236,7 +261,7 @@
         -webkit-animation: html5 2s ease;
     }
     .jquery {
-        background: #9b59b6;
+        background: #9b00b6;
         width: 70%;
         -moz-animation: jquery 2s ease;
         -webkit-animation: jquery 2s ease;
@@ -295,12 +320,36 @@
             width: 90%;
         }
     }
+    @-moz-keyframes react {
+        0% {
+            width: 0px;
+        }
+        100% {
+            width: 90%;
+        }
+    }
+    @-moz-keyframes redux {
+        0% {
+            width: 0px;
+        }
+        100% {
+            width: 85%;
+        }
+    }
+    @-moz-keyframes reactNative {
+        0% {
+            width: 0px;
+        }
+        100% {
+            width: 85%;
+        }
+    }
     @-moz-keyframes mongodb {
         0% {
             width: 0px;
         }
         100% {
-            width: 50%;
+            width: 70%;
         }
     }
     @-moz-keyframes expressjs {
@@ -308,7 +357,15 @@
             width: 0px;
         }
         100% {
-            width: 50%;
+            width: 40%;
+        }
+    }
+    @-moz-keyframes nodejs {
+        0% {
+            width: 0px;
+        }
+        100% {
+            width: 60%;
         }
     }
     @-moz-keyframes css {
@@ -359,12 +416,36 @@
             width: 90%;
         }
     }
+    @-webkit-keyframes react {
+        0% {
+            width: 0px;
+        }
+        100% {
+            width: 90%;
+        }
+    }
+    @-webkit-keyframes redux {
+        0% {
+            width: 0px;
+        }
+        100% {
+            width: 85%;
+        }
+    }
+    @-webkit-keyframes reactNative {
+        0% {
+            width: 0px;
+        }
+        100% {
+            width: 85%;
+        }
+    }
     @-webkit-keyframes mongodb {
         0% {
             width: 0px;
         }
         100% {
-            width: 50%;
+            width: 70%;
         }
     }
     @-webkit-keyframes expressjs {
@@ -372,7 +453,15 @@
             width: 0px;
         }
         100% {
-            width: 50%;
+            width: 40%;
+        }
+    }
+    @-webkit-keyframes nodejs {
+        0% {
+            width: 0px;
+        }
+        100% {
+            width: 60%;
         }
     }
     @-webkit-keyframes css {

@@ -31,3 +31,107 @@ angular.module('personalPortfolio')
         });
 
     }]);
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map
+
+//# sourceMappingURL=../../maps/controllers/detailController.js.map

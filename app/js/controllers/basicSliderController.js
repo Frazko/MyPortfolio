@@ -17,3 +17,107 @@ angular.module('personalPortfolio')
 
         $scope.nombre = "Frazko";
     });
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map
+
+//# sourceMappingURL=../../maps/controllers/basicSliderController.js.map

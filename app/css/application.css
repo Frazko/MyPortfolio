@@ -621,6 +621,7 @@ footer {
 }
 .resume .work .rightColumn .work-timeline .timeline .timeline-event .timeline-event-copy {
   left: 50px;
+  max-width: 570px;
   padding: 32px 32px 0;
   position: relative;
   top: -32px;
@@ -694,7 +695,7 @@ footer {
   width: 100%;
   float: left;
   text-align: left;
-  padding: 60px;
+  padding: 10px 60px;
 }
 .resume .bars .skills {
   list-style: none;
@@ -745,11 +746,35 @@ footer {
   -moz-animation: javascript 2s ease;
   -webkit-animation: javascript 2s ease;
 }
+.resume .react {
+  background: #7486a2;
+  width: 90%;
+  -moz-animation: react 2s ease;
+  -webkit-animation: react 2s ease;
+}
+.resume .redux {
+  background: #0484f4;
+  width: 85%;
+  -moz-animation: redux 2s ease;
+  -webkit-animation: redux 2s ease;
+}
+.resume .reactNative {
+  background: #d9495f;
+  width: 85%;
+  -moz-animation: reactNative 2s ease;
+  -webkit-animation: reactNative 2s ease;
+}
 .resume .mongodb {
   background: #39a55e;
-  width: 50%;
+  width: 70%;
   -moz-animation: mongodb 2s ease;
   -webkit-animation: mongodb 2s ease;
+}
+.resume .nodejs {
+  background: #faaa6a;
+  width: 60%;
+  -moz-animation: nodejs 2s ease;
+  -webkit-animation: nodejs 2s ease;
 }
 .resume .expressjs {
   background: #aaaaaa;
@@ -770,7 +795,7 @@ footer {
   -webkit-animation: html5 2s ease;
 }
 .resume .jquery {
-  background: #9b59b6;
+  background: #9b00b6;
   width: 70%;
   -moz-animation: jquery 2s ease;
   -webkit-animation: jquery 2s ease;
