@@ -65,12 +65,12 @@ function errorlog(err) {
 gulp.task("scripts", function() {
   return (gulp
       .src(config.jsConcatFiles)
-      .pipe(sourcemaps.init())
+    //   .pipe(sourcemaps.init())
       // .pipe(concat('temp.js'))
       // .pipe(uglify())
       .on("error", errorlog)
       // .pipe(rename('app.min.js'))
-      .pipe(sourcemaps.write("../maps"))
+    //   .pipe(sourcemaps.write("../maps"))
       .pipe(gulp.dest("./app/js/"))
       .pipe(
         reload({
