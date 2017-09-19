@@ -1,224 +1,221 @@
 {
     "Projects": [{
-        "frontend": [{
-            "ProjectName": "CHASE Business Banking",
-            "Header": "FRONT END",
-            "Description": "Responsive, Tracking, Video player, Sass, Compass, Handlebars, Grunt, Javascript, Jquery, Modernizer.",
-            "parent": "#/category/frontend",
+
+        "mobile": [{
+            "ProjectName": "Alineaciones CR",
+            "Header": "Mobile React Native Development",
+            "Description": "<p>In this app you are able to create lineups for the most popular futbol teams of Costa Rica, you can swap players, move them around and also you are able to foretell the result of the match. </p> <h3>These are some of the technologies used for this project</h3><br> <ul><li>Javascript ES6 </li><li> Redux </li><li> Firebase adMob </li><li> Firebase Analytics</li><li> Firebase Authentication </li><li> Facebook Authentication</li><li>Code Base UI</li><li> React Native Router Flux </li><li> Facebook API </li><li>Screen Capture </li><li> AsynchStorage</li><li> Gestures</li><li> Video</li><li> Published on Google play</li></ul>",
+            "parent": "#/category/mobile",
             "images": [{
-                "imagePath": "images/frontend/frontend_0.jpg",
-                "altText": "DEMO",
-                "demoLink": "https://www.chase.com/online/digital/business-banking.html",
-                "urlLink": "#/detail/frontend/0"
-            }]
-        }, {
-            "ProjectName": "CHASE Sapphire",
-            "Header": "FRONT END",
-            "Description": "HTML, Sass, Tracking",
-            "parent": "#/category/frontend",
-            "images": [{
-                "imagePath": "images/frontend/frontend_1.jpg",
-                "altText": "DEMO",
-                "demoLink": "/demoWorks/frontEndDemo/frontEnd_1",
-                "urlLink": "#/detail/frontend/1"
-            }]
-        }, {
-            "ProjectName": "CHASE Sapphire",
-            "Header": "FRONT END",
-            "Description": "HTML, Sass, Compass, Tracking.",
-            "parent": "#/category/frontend",
-            "images": [{
-                "imagePath": "images/frontend/frontend_2.jpg",
-                "altText": "DEMO",
-                "demoLink": "/demoWorks/frontEndDemo/frontEnd_2",
-                "urlLink": "#/detail/frontend/2"
-            }]
-        }, {
-            "ProjectName": "CHASE Sapphire",
-            "Header": "FRONT END",
-            "Description": "HTML, Sass, Compass,  Tracking.",
-            "parent": "#/category/frontend",
-            "images": [{
-                "imagePath": "images/frontend/frontend_3.jpg",
-                "altText": "DEMO",
-                "demoLink": "/demoWorks/frontEndDemo/frontEnd_3",
-                "urlLink": "#/detail/frontend/3"
-            }]
-        }, {
-            "ProjectName": "Kraft Velveeta",
-            "Header": "FRONT END",
-            "Description": "Responsive, Tracking, Sass, Compass, Video player, Javascript, Jquery",
-            "parent": "#/category/frontend",
-            "images": [{
-                "imagePath": "images/frontend/frontend_5.jpg",
-                "altText": "DEMO",
-                "demoLink": "/demoWorks/frontEndDemo/frontEnd_5",
-                "urlLink": "#/detail/frontend/5"
+                "imagePath": "images/mobile/mobile_0.jpg",
+                "altText": "Google Play URL",
+                "demoLink": "https://play.google.com/store/apps/details?id=com.alineacionescr",
+                "urlLink": "#/detail/mobile/0"
             }]
         }],
 
-
-
-
-
-
-
+        "frontend": [{
+                "ProjectName": "CHASE Business Banking",
+                "Header": "FRONT END",
+                "Description": "<p>Responsive, Tracking, Video player, Sass, Compass, Handlebars, Grunt, Javascript, Jquery, Modernizer.</p>",
+                "parent": "#/category/frontend",
+                "images": [{
+                    "imagePath": "images/frontend/frontend_0.jpg",
+                    "altText": "DEMO",
+                    "demoLink": "https://www.chase.com/online/digital/business-banking.html",
+                    "urlLink": "#/detail/frontend/0"
+                }]
+            },
+            {
+                "ProjectName": "CHASE Sapphire",
+                "Header": "FRONT END",
+                "Description": "<p>HTML, Sass, Tracking</p>",
+                "parent": "#/category/frontend",
+                "images": [{
+                    "imagePath": "images/frontend/frontend_1.jpg",
+                    "altText": "DEMO",
+                    "urlLink": "#/detail/frontend/1"
+                }]
+            },
+            {
+                "ProjectName": "CHASE Sapphire",
+                "Header": "FRONT END",
+                "Description": "<p>HTML, Sass, Compass, Tracking.</p>",
+                "parent": "#/category/frontend",
+                "images": [{
+                    "imagePath": "images/frontend/frontend_2.jpg",
+                    "altText": "DEMO",
+                    "urlLink": "#/detail/frontend/2"
+                }]
+            },
+            {
+                "ProjectName": "CHASE Sapphire",
+                "Header": "FRONT END",
+                "Description": "<p>HTML, Sass, Compass,  Tracking.</p>",
+                "parent": "#/category/frontend",
+                "images": [{
+                    "imagePath": "images/frontend/frontend_3.jpg",
+                    "altText": "DEMO",
+                    "urlLink": "#/detail/frontend/3"
+                }]
+            },
+            {
+                "ProjectName": "Kraft Velveeta",
+                "Header": "FRONT END",
+                "Description": "<p>Responsive, Tracking, Sass, Compass, Video player, Javascript, Jquery</p>",
+                "parent": "#/category/frontend",
+                "images": [{
+                    "imagePath": "images/frontend/frontend_5.jpg",
+                    "altText": "DEMO",
+                    "urlLink": "#/detail/frontend/5"
+                }]
+            }
+        ],
 
         "olahtml": [{
-            "ProjectName": "Ritz International",
-            "Header": "OLA HTML5",
-            "Description": "OLA HTML5, javascript, CSS Animation, DoubleClick",
-            "parent": "#/category/olahtml",
-            "images": [{
-                "imagePath": "images/olahtml/html1_ritz_international.jpg",
-                "altText": "DEMO",
-                "demoLink": "/demoWorks/frontEndDemo/frontEnd_1",
-                "urlLink": "#/detail/olahtml/0"
-            }]
-        }, {
-            "ProjectName": "Comcast Business",
-            "Header": "OLA HTML5",
-            "Description": "OLA HTML5, javascript, CSS Animation, DoubleClick",
-            "parent": "#/category/olahtml",
-            "images": [{
-                "imagePath": "images/olahtml/html2_bus_champion.jpg",
-                "altText": "DEMO",
-                "demoLink": "/demoWorks/frontEndDemo/frontEnd_1",
-                "urlLink": "#/detail/olahtml/1"
-            }]
-        }, {
-            "ProjectName": "American Express Business",
-            "Header": "OLA HTML5",
-            "Description": "OLA HTML5, javascript, JS and CSS Animation, DoubleClick",
-            "parent": "#/category/olahtml",
-            "images": [{
-                "imagePath": "images/olahtml/html3_buyingPower.jpg",
-                "altText": "DEMO",
-                "demoLink": "/demoWorks/frontEndDemo/frontEnd_1",
-                "urlLink": "#/detail/olahtml/2"
-            }]
-        }, {
-            "ProjectName": "Xfinity",
-            "Header": "OLA HTML5",
-            "Description": "OLA HTML5, javascript, JS and CSS Animation, DoubleClick",
-            "parent": "#/category/olahtml",
-            "images": [{
-                "imagePath": "images/olahtml/html4_gm_dhv.jpg",
-                "altText": "DEMO",
-                "demoLink": "/demoWorks/frontEndDemo/frontEnd_1",
-                "urlLink": "#/detail/olahtml/3"
-            }]
-        }, {
-            "ProjectName": "Dollar Cash",
-            "Header": "OLA HTML5",
-            "Description": "OLA HTML5, javascript, CSS Animation, DoubleClick",
-            "parent": "#/category/olahtml",
-            "images": [{
-                "imagePath": "images/olahtml/html5_retargeting.jpg",
-                "altText": "DEMO",
-                "demoLink": "/demoWorks/frontEndDemo/frontEnd_1",
-                "urlLink": "#/detail/olahtml/4"
-            }]
-        }, {
-            "ProjectName": "Dollar Cash",
-            "Header": "OLA HTML5",
-            "Description": "OLA HTML5, Javascript, Jquery, Box Slider, JS and CSS Animation",
-            "parent": "#/category/olahtml",
-            "images": [{
-                "imagePath": "images/olahtml/html6_dollargeneral.jpg",
-                "altText": "DEMO",
-                "demoLink": "/demoWorks/frontEndDemo/frontEnd_1",
-                "urlLink": "#/detail/olahtml/5"
-            }]
-        }],
-
-
-
-
-
-
-
-
-
-
+                "ProjectName": "Ritz International",
+                "Header": "OLA HTML5",
+                "Description": "<p>OLA HTML5, javascript, CSS Animation, DoubleClick</p>",
+                "parent": "#/category/olahtml",
+                "images": [{
+                    "imagePath": "images/olahtml/html1_ritz_international.jpg",
+                    "altText": "DEMO",
+                    "urlLink": "#/detail/olahtml/0"
+                }]
+            },
+            {
+                "ProjectName": "Comcast Business",
+                "Header": "OLA HTML5",
+                "Description": "<p>OLA HTML5, javascript, CSS Animation, DoubleClick</p>",
+                "parent": "#/category/olahtml",
+                "images": [{
+                    "imagePath": "images/olahtml/html2_bus_champion.jpg",
+                    "altText": "DEMO",
+                    "urlLink": "#/detail/olahtml/1"
+                }]
+            },
+            {
+                "ProjectName": "American Express Business",
+                "Header": "OLA HTML5",
+                "Description": "<p>OLA HTML5, javascript, JS and CSS Animation, DoubleClick</p>",
+                "parent": "#/category/olahtml",
+                "images": [{
+                    "imagePath": "images/olahtml/html3_buyingPower.jpg",
+                    "altText": "DEMO",
+                    "urlLink": "#/detail/olahtml/2"
+                }]
+            },
+            {
+                "ProjectName": "Xfinity",
+                "Header": "OLA HTML5",
+                "Description": "<p>OLA HTML5, javascript, JS and CSS Animation, DoubleClick</p>",
+                "parent": "#/category/olahtml",
+                "images": [{
+                    "imagePath": "images/olahtml/html4_gm_dhv.jpg",
+                    "altText": "DEMO",
+                    "urlLink": "#/detail/olahtml/3"
+                }]
+            },
+            {
+                "ProjectName": "Dollar Cash",
+                "Header": "OLA HTML5",
+                "Description": "<p>OLA HTML5, javascript, CSS Animation, DoubleClick</p>",
+                "parent": "#/category/olahtml",
+                "images": [{
+                    "imagePath": "images/olahtml/html5_retargeting.jpg",
+                    "altText": "DEMO"
+                }]
+            },
+            {
+                "ProjectName": "Dollar Cash",
+                "Header": "OLA HTML5",
+                "Description": "<p>OLA HTML5, Javascript, Jquery, Box Slider, JS and CSS Animation</p>",
+                "parent": "#/category/olahtml",
+                "images": [{
+                    "imagePath": "images/olahtml/html6_dollargeneral.jpg",
+                    "altText": "DEMO",
+                    "urlLink": "#/detail/olahtml/5"
+                }]
+            }
+        ],
 
         "olaflash": [{
-            "ProjectName": "Nissan Leaf Move On",
-            "Header": "OLA FLASH",
-            "Description": "Flash AS3, Away3D for the pages, Greensock, Mediamind.",
-            "parent": "#/category/olaflash",
-            "images": [{
-                "imagePath": "images/olaflash/flash_1.jpg",
-                "altText": "DEMO",
-                "demoLink": "/demoWorks/bannersFlashDemo/portfolio_Nissan_Leaf_MoveOn_02.html",
-                "urlLink": "#/detail/olaflash/0"
-            }]
-        }, {
-            "ProjectName": "Nissan Leaf Economics",
-            "Header": "OLA FLASH",
-            "Description": "Flash AS3, Particles, Greensock, Mediamind.",
-            "parent": "#/category/olaflash",
-            "images": [{
-                "imagePath": "images/olaflash/flash_2.jpg",
-                "altText": "DEMO",
-                "demoLink": "/demoWorks/bannersFlashDemo/portfolio_leaf_particles_3.html",
-                "urlLink": "#/detail/olaflash/1"
-            }]
-        }, {
-            "ProjectName": "Nissan France",
-            "Header": "OLA FLASH",
-            "Description": "AS3, Nissan Framework, Greensock, Flash Builder, Flex SDK.",
-            "parent": "#/category/olaflash",
-            "images": [{
-                "imagePath": "images/olaflash/flash_3.jpg",
-                "altText": "DEMO",
-                "demoLink": "/demoWorks/bannersFlashDemo/portfolio_nissan_France_1.html",
-                "urlLink": "#/detail/olaflash/2"
-            }]
-        }, {
-            "ProjectName": "Marlboro USA",
-            "Header": "OLA FLASH",
-            "Description": "AS3, Marlboro Framework, Greensock, Flash Builder, Flex SDK.",
-            "parent": "#/category/olaflash",
-            "images": [{
-                "imagePath": "images/olaflash/flash_4.jpg",
-                "altText": "DEMO",
-                "demoLink": "/demoWorks/bannersFlashDemo/portfolio_Marlboro_1.html",
-                "urlLink": "#/detail/olaflash/3"
-            }]
-        }, {
-            "ProjectName": "Leoburnett",
-            "Header": "OLA FLASH",
-            "Description": "AS3, Greensock, Flash Builder, Flex SDK, Web Services.",
-            "parent": "#/category/olaflash",
-            "images": [{
-                "imagePath": "images/olaflash/flash_5.jpg",
-                "altText": "DEMO",
-                "demoLink": "/demoWorks/bannersFlashDemo/portfolio_leoburnett_2.html",
-                "urlLink": "#/detail/olaflash/4"
-            }]
-        }, {
-            "ProjectName": "Nissan Juke Nismo",
-            "Header": "OLA FLASH",
-            "Description": "AS3, Video, Greensock, Mediamind.",
-            "parent": "#/category/olaflash",
-            "images": [{
-                "imagePath": "images/olaflash/flash_6.jpg",
-                "altText": "DEMO",
-                "demoLink": "/demoWorks/bannersFlashDemo/portfolio_juke_nismo_2.html",
-                "urlLink": "#/detail/olaflash/5"
-            }]
-        }, {
-            "ProjectName": "Gillette",
-            "Header": "OLA FLASH",
-            "Description": "AS3, Video, Greensock, Flash Builder, Flex SDK, Java backend, Web Services.",
-            "parent": "#/category/olaflash",
-            "images": [{
-                "imagePath": "images/olaflash/flash_7.jpg",
-                "altText": "DEMO",
-                "demoLink": "/demoWorks/bannersFlashDemo/portfolio_gillette.html",
-                "urlLink": "#/detail/olaflash/6"
-            }]
-        }]
+                "ProjectName": "Nissan Leaf Move On",
+                "Header": "OLA FLASH",
+                "Description": "<p>Flash AS3, Away3D for the pages, Greensock, Mediamind.</p>",
+                "parent": "#/category/olaflash",
+                "images": [{
+                    "imagePath": "images/olaflash/flash_1.jpg",
+                    "altText": "DEMO",
+                    "urlLink": "#/detail/olaflash/0"
+                }]
+            },
+            {
+                "ProjectName": "Nissan Leaf Economics",
+                "Header": "OLA FLASH",
+                "Description": "<p>Flash AS3, Particles, Greensock, Mediamind.</p>",
+                "parent": "#/category/olaflash",
+                "images": [{
+                    "imagePath": "images/olaflash/flash_2.jpg",
+                    "altText": "DEMO",
+                    "urlLink": "#/detail/olaflash/1"
+                }]
+            },
+            {
+                "ProjectName": "Nissan France",
+                "Header": "OLA FLASH",
+                "Description": "<p>AS3, Nissan Framework, Greensock, Flash Builder, Flex SDK.</p>",
+                "parent": "#/category/olaflash",
+                "images": [{
+                    "imagePath": "images/olaflash/flash_3.jpg",
+                    "altText": "DEMO",
+                    "urlLink": "#/detail/olaflash/2"
+                }]
+            },
+            {
+                "ProjectName": "Marlboro USA",
+                "Header": "OLA FLASH",
+                "Description": "<p>AS3, Marlboro Framework, Greensock, Flash Builder, Flex SDK.</p>",
+                "parent": "#/category/olaflash",
+                "images": [{
+                    "imagePath": "images/olaflash/flash_4.jpg",
+                    "altText": "DEMO",
+                    "urlLink": "#/detail/olaflash/3"
+                }]
+            },
+            {
+                "ProjectName": "Leoburnett",
+                "Header": "OLA FLASH",
+                "Description": "<p>AS3, Greensock, Flash Builder, Flex SDK, Web Services.</p>",
+                "parent": "#/category/olaflash",
+                "images": [{
+                    "imagePath": "images/olaflash/flash_5.jpg",
+                    "altText": "DEMO",
+                    "urlLink": "#/detail/olaflash/4"
+                }]
+            },
+            {
+                "ProjectName": "Nissan Juke Nismo",
+                "Header": "OLA FLASH",
+                "Description": "<p>AS3, Video, Greensock, Mediamind.",
+                "parent": "#/category/olaflash",
+                "images": [{
+                    "imagePath": "images/olaflash/flash_6.jpg",
+                    "altText": "DEMO",
+                    "urlLink": "#/detail/olaflash/5"
+                }]
+            },
+            {
+                "ProjectName": "Gillette",
+                "Header": "OLA FLASH",
+                "Description": "<p>AS3, Video, Greensock, Flash Builder, Flex SDK, Java backend, Web Services.</p>",
+                "parent": "#/category/olaflash",
+                "images": [{
+                    "imagePath": "images/olaflash/flash_7.jpg",
+                    "altText": "DEMO",
+                    "urlLink": "#/detail/olaflash/6"
+                }]
+            }
+        ]
     }]
 }

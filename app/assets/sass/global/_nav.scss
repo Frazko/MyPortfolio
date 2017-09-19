@@ -19,8 +19,7 @@ body.is-mobile .widget {
     user-select: none
 }
 
-.navigation:before,
-.navigation:after {
+.navigation:before, .navigation:after {
     content: "";
     display: table;
     -webkit-flex-basis: 0;
@@ -36,6 +35,11 @@ body.is-mobile .widget {
 .link {
     text-decoration: none;
     cursor: pointer;
+}
+
+a:hover, a:focus {
+    color: #ff6200;
+    text-decoration: underline;
 }
 
 .navigation a {

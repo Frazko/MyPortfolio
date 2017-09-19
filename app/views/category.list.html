@@ -6,7 +6,7 @@
             <div id="portfolio-wrapper" class="wow fadeIn animated">
                 <ul>
                     <li ng-repeat="datos in dataItems">
-                        <div class="col-xs-12 col-sm-6 col-md-4 portfolio-item">
+                        <div class="col-xs-12 col-sm-6 col-md-4 portfolio-item" ng-class="{alignCenter: dataItems.length == 1}">
                             <div class="item-wrap" style="background: url('{{datos.images[0].imagePath}}') no-repeat center center / cover;">
                                 <a ng-sref="detail" ng-href="{{datos.images[0].urlLink}}" title="">
                                     <div class="overlay">

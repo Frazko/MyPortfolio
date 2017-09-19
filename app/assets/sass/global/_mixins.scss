@@ -1,23 +1,23 @@
 // -------------------------------------------------------------------------------------------------
 
 //citi breakpoins
-//Desktop - 984+ large
-//Tablet - 600 - 983
+//Desktop - 992+ large
+//Tablet - 600 - 991
 //Mobile – 320 – 599, or less
 
 
 @mixin breakpoint($point) {
     @if $point == desktop {
-        @media  screen and (min-width : 984px) { @content; }
+        @media  screen and (min-width : 992px) { @content; }
     }
     @else if $point == tablet {
-        @media  screen and (min-width : 600px) and (max-width : 983px)  { @content; }
+        @media  screen and (min-width : 600px) and (max-width : 991px)  { @content; }
     }
     @else if $point == tablet-p {
         @media  screen and (min-width : 600px) and (max-width : 768px)  { @content; }
     }
     @else if $point == tablet-l {
-        @media  screen and (min-width : 769px) and (max-width : 983px)  { @content; }
+        @media  screen and (min-width : 769px) and (max-width : 991px)  { @content; }
     }
     @else if $point == phone {
         @media  screen and (min-width : 1px) and (max-width : 599px)  { @content; }

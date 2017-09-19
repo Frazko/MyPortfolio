@@ -140,7 +140,7 @@
     }
     h2 {
         font-size: 18px;
-        margin-bottom: 10px;
+        margin-bottom: 25px;
     }
     /*----------------------------------------------*/
     /*  Skill Bars
@@ -455,7 +455,7 @@
         max-height: 100%;
         .left-half {
             padding: 20px;
-            height: 540px;
+            height: 860px;
             background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
             overflow: hidden;
             float: left;
@@ -492,16 +492,12 @@
                     ul {
                         li {
                             line-height: 3px;
-                            a:link,
-                            a:visited,
-                            a:active {
+                            a:link, a:visited, a:active {
                                 color: #FFF;
                                 text-decoration: none;
                             }
-
-                            a:hover{
+                            a:hover {
                                 color: #FFA;
-
                             }
                         }
                     }
@@ -510,10 +506,12 @@
         }
         .right-half {
             padding: 60px;
-            height: 540px;
-            max-height: 660px;
+            height: 860px;
             background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
             overflow: hidden;
+            li {
+                line-height: 1.3em;
+            }
             .arrow-left {
                 left: -125px;
                 top: 40%;
@@ -530,14 +528,19 @@
     }
 }
 
-@include breakpoint('tablet-p') {
+@include breakpoint('tablet') {
     .resume {
         .aboutme {
             .inner {
                 .row {
+                    .left-half {
+                        height: 100%;
+                        max-height: 580px;
+                        //background: none repeat scroll 0 0 rgba(0, 200, 0, 0.8);
+                    }
                     .right-half {
                         height: 100%;
-                        max-height: 860px;
+                        max-height: 990px;
                         //background: none repeat scroll 0 0 rgba(200, 0, 0, 0.8);
                     }
                 }
@@ -551,9 +554,14 @@
         .aboutme {
             .inner {
                 .row {
+                    .left-half {
+                        height: 100%;
+                        max-height: 700px;
+                        //background: none repeat scroll 0 0 rgba(0, 200, 0, 0.8);
+                    }
                     .right-half {
                         height: 100%;
-                        max-height: 800px;
+                        max-height: 990px;
                         //background: none repeat scroll 0 0 rgba(0, 200, 0, 0.8);
                     }
                 }

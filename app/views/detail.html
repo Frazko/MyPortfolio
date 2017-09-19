@@ -13,20 +13,25 @@
                         <h1>{{data.ProjectName}}</h1>
                     </div>
                     <div class="detailCopy">
-                        <h3>Technologies applied:</h3>
-                        <p>{{data.Description}}</p>
+                        <div class="detailActions">
+                            <p ng-if="data.images[0].demoLink">
+                                <a class="aNext" ng-href="{{data.images[0].demoLink}}" target="_blank">Check the work here <i class="fa fa-arrow-right"></i></a>
+                            </p>
+                        </div>
+                        <br>
+                        <br>
+
+                        <h3>Description:</h3>
+                        <p>
+                            <div ng-bind-html="renderHtml(data.Description)">-</div>
+                        </p>
+
                     </div>
+
                     <div class="detailActions">
                         <p>
-                            <a class="aNext" ng-href="{{data.images[0].demoLink}}" target="_blank">Check the work here <i class="fa fa-arrow-right"></i></a>
+                            <a class="aPrev" ng-sref="{{data.parent}}" ng-href="{{data.parent}}"> <i class="fa fa-arrow-right fa-flip-horizontal"></i> Back</a>
                         </p>
-                        <p>
-                            <a class="aPrev" ng-sref="{{data.parent}}" ng-href="{{data.parent}}">Back to Category <i class="fa fa-arrow-right fa-flip-horizontal"></i></a>
-                        </p>
-                        <!--<h2>Actions</h2>
-                        <a href=""> Action 1</a>
-                        <a href=""> Action 2</a>
-                        -->
                     </div>
                 </div>
             </div>

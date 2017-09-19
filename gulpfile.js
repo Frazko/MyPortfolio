@@ -17,7 +17,7 @@ var config = {
         //'build/js/!(*.min.js)',
         'build/assets/',
         'build/bower.json',
-        //'build/bower_components/',
+        'build/bower_components/',
         'build/maps/'
     ]
 };
@@ -66,13 +66,13 @@ function errorlog(err) {
 
 gulp.task('scripts', function() {
     return gulp.src(config.jsConcatFiles)
-        //.pipe(sourcemaps.init())
-        //.pipe(concat('temp.js'))
-        //.pipe(uglify())
+        .pipe(sourcemaps.init())
+        .pipe(concat('temp.js'))
+        .pipe(uglify())
         .on('error', errorlog)
-        //.pipe(rename('app.min.js'))   
-        ///.pipe(sourcemaps.write('../maps'))
-        //.pipe(gulp.dest('./app/js/'))
+        .pipe(rename('app.min.js'))   
+        .pipe(sourcemaps.write('../maps'))
+        .pipe(gulp.dest('./app/js/'))
 
     .pipe(reload({
         stream: true
@@ -82,13 +82,13 @@ gulp.task('scripts', function() {
 
 // ////////////////////////////////////////////////
 // Styles Tasks
-// /////////////////////////////////////////////// //compressed
+// /////////////////////////////////////////////// //compressed  / expanded
 
 gulp.task('styles', function() {
     gulp.src('./app/scss/application.scss')
         .pipe(sourcemaps.init())
         .pipe(sass({
-            outputStyle: 'expanded'
+            outputStyle: 'compressed'
         }))
         .on('error', errorlog)
         .pipe(autoprefixer({
@@ -108,7 +108,7 @@ var compass_options = {
     css: 'app/css',
     sass: 'app/assets/sass',
     maps: 'app/assets/maps',
-    sourcemap: false,
+    sourcemap: true,
 }
 
 // ////////////////////////////////////////////////
@@ -207,42 +207,11 @@ gulp.task('build', ['build:copy', 'build:remove']);
 // // /////////////////////////////////////////////
 
 gulp.task('watch', function() {
-    livereload.listen();
     gulp.watch('app/assets/**/*.*', ['compass']);
     gulp.watch('app/views/**/*.html', ['html']);
     gulp.watch('app/js/**/*.js', ['scripts']);
+    livereload.listen();
 });
-
-
-// ////////////////////////////////////////////////
-// Connect Tasks
-// // /////////////////////////////////////////////
-
-/*
-gulp.task('connect', function() {
-  connect.server({
-    root: 'build',
-    livereload: true
-  });
-});
- 
-gulp.task('html', function () {
-  gulp.src('./build/*.html')
-    .pipe(connect.reload());
-});
- 
-gulp.task('watch', function () {
-  gulp.watch(['./build/*.html'], ['html']);
-});
- 
-
-
-
-*/
-
-
-
-
 
 // ////////////////////////////////////////////////
 // Tasks
@@ -252,4 +221,4 @@ gulp.task('watch', function () {
 
 gulp.task('default', ['compass', 'html', 'build']);
 
-gulp.task('start', ['build:cleanfolder', 'styles', 'scripts', 'html', 'browser-sync', 'build', 'watch']);
+gulp.task('start', ['compass', 'scripts', 'html', 'build', 'browser-sync', 'watch']);

@@ -58,6 +58,10 @@ $thumb-bg-color: #130C2A;
     text-shadow: 2px 2px 8px #000;
 }
 
+#mobile {
+    background: url(../images/react-native.png) no-repeat center center;
+    @extend .coverImage;
+}
 #frontend {
     background: url(../images/css_code.jpg) no-repeat center center;
     @extend .coverImage;

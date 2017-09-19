@@ -1,22 +1,23 @@
 .header {
-  width: 100%;
-  background-color: rgb(115, 69, 115);
-  height: 100px;
-  text-align: center;
+    width: 100%;
+    background-color: rgb(115, 69, 115);
+    height: 100px;
+    text-align: center;
     padding-top: 10px;
-
+    a:hover, a:focus {
+        color: #ff6200;
+        text-decoration: underline;
+    }
     h1 {
         @include centered-container;
         background-color: $white;
         height: 30px;
         line-height: 30px;
         margin-bottom: 10px;
-
     }
     p {
         color: $gray;
     }
-
     //breakpoints samples
     @include breakpoint('phone') {
         background-color: #635C99;
