@@ -13,7 +13,9 @@ angular.module('personalPortfolio')
             '../images/7.jpg',
             '../images/4.jpg',
             '../images/3.jpg'
-        ];
+        ]
 
-        $scope.nombre = "Frazko";
-    });
+        $scope.nombre = "Frazko"
+    })
+
+
